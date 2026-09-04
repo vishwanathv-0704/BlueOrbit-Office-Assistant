@@ -1,0 +1,101 @@
+employee_id,name,department,designation,manager_id,location_id,joining_date,employment_status
+EMP001,Ananya Sharma,Human Resources,HR Business Partner,null,L003,2021-06-15,Active
+EMP002,Rohan Patel,Engineering,Engineering Lead,null,L001,2021-06-15,Active
+EMP003,Meera Nair,Data Analytics,Senior Data Analyst,null,L001,2021-06-15,Active
+EMP004,Vikas Reddy,Finance,Senior Finance Analyst,null,L002,2021-06-15,Active
+EMP005,Kabir Mehta,Information Technology,IT Manager,null,L001,2021-06-15,Active
+EMP006,Shreya Iyer,Sales,Sales Manager,null,L006,2021-06-15,Active
+EMP007,Arjun Rao,Operations,Operations Manager,null,L004,2021-06-15,Active
+EMP008,Kavya Menon,Product,Product Manager,null,L001,2021-06-15,Active
+EMP009,Tanvi Kapoor,Marketing,Marketing Manager,null,L005,2021-06-15,Active
+EMP010,Aarav Sharma,Data Analytics,Data Analyst,EMP003,L001,2022-11-04,Active
+EMP011,Aarav Patel,Engineering,Software Engineer,EMP002,L002,2023-12-07,Active
+EMP012,Aarav Reddy,Human Resources,HR Executive,EMP001,L003,2024-01-10,Active
+EMP013,Aarav Iyer,Finance,Finance Analyst,EMP004,L004,2025-02-13,Active
+EMP014,Aarav Nair,Information Technology,IT Support Engineer,EMP005,L005,2026-03-16,Active
+EMP015,Aarav Mehta,Sales,Sales Executive,EMP006,L006,2022-04-19,Active
+EMP016,Aarav Kapoor,Operations,Operations Analyst,EMP007,L001,2023-05-22,Active
+EMP017,Aarav Joshi,Product,Product Analyst,EMP008,L002,2024-06-25,Active
+EMP018,Aarav Rao,Marketing,Marketing Analyst,EMP009,L003,2025-07-01,Active
+EMP019,Aarav Verma,Data Analytics,Senior Data Analyst,EMP003,L004,2026-08-04,Active
+EMP020,Aarav Menon,Engineering,Senior Software Engineer,EMP002,L005,2022-09-07,Active
+EMP021,Aarav Singh,Human Resources,HR Business Partner,EMP001,L006,2023-10-10,Active
+EMP022,Aarav Gupta,Finance,Senior Finance Analyst,EMP004,L001,2024-11-13,Active
+EMP023,Aarav Desai,Information Technology,IT Administrator,EMP005,L002,2025-12-16,Active
+EMP024,Aarav Kulkarni,Sales,Account Manager,EMP006,L003,2026-01-19,Active
+EMP025,Aarav Pillai,Operations,Operations Executive,EMP007,L004,2022-02-22,Active
+EMP026,Aarav Bhat,Product,Product Manager,EMP008,L005,2023-03-25,Active
+EMP027,Aarav Malhotra,Marketing,Marketing Specialist,EMP009,L006,2024-04-01,Active
+EMP028,Aarav Mishra,Data Analytics,Analytics Engineer,EMP003,L001,2025-05-04,Active
+EMP029,Aarav Chopra,Engineering,Engineering Lead,EMP002,L002,2026-06-07,Active
+EMP030,Aditya Sharma,Human Resources,HR Executive,EMP001,L003,2022-07-10,Active
+EMP031,Aditya Patel,Finance,Finance Analyst,EMP004,L004,2023-08-13,Active
+EMP032,Aditya Reddy,Information Technology,IT Manager,EMP005,L005,2024-09-16,Active
+EMP033,Aditya Iyer,Sales,Sales Manager,EMP006,L006,2025-10-19,Active
+EMP034,Aditya Nair,Operations,Operations Manager,EMP007,L001,2026-11-22,Active
+EMP035,Aditya Mehta,Product,Product Owner,EMP008,L002,2022-12-25,Active
+EMP036,Aditya Kapoor,Marketing,Marketing Manager,EMP009,L003,2023-01-01,Active
+EMP037,Aditya Joshi,Data Analytics,Data Analyst,EMP003,L004,2024-02-04,Active
+EMP038,Aditya Rao,Engineering,Software Engineer,EMP002,L005,2025-03-07,Active
+EMP039,Aditya Verma,Human Resources,HR Business Partner,EMP001,L006,2026-04-10,Active
+EMP040,Aditya Menon,Finance,Senior Finance Analyst,EMP004,L001,2022-05-13,Active
+EMP041,Aditya Singh,Information Technology,IT Support Engineer,EMP005,L002,2023-06-16,Active
+EMP042,Aditya Gupta,Sales,Sales Executive,EMP006,L003,2024-07-19,Active
+EMP043,Aditya Desai,Operations,Operations Analyst,EMP007,L004,2025-08-22,Active
+EMP044,Aditya Kulkarni,Product,Product Analyst,EMP008,L005,2026-09-25,Active
+EMP045,Aditya Pillai,Marketing,Marketing Analyst,EMP009,L006,2022-10-01,Active
+EMP046,Aditya Bhat,Data Analytics,Senior Data Analyst,EMP003,L001,2023-11-04,Active
+EMP047,Aditya Malhotra,Engineering,Senior Software Engineer,EMP002,L002,2024-12-07,Active
+EMP048,Aditya Mishra,Human Resources,HR Executive,EMP001,L003,2025-01-10,Active
+EMP049,Aditya Chopra,Finance,Finance Analyst,EMP004,L004,2026-02-13,Active
+EMP050,Aisha Sharma,Information Technology,IT Administrator,EMP005,L005,2022-03-16,Active
+EMP051,Aisha Patel,Sales,Account Manager,EMP006,L006,2023-04-19,Active
+EMP052,Aisha Reddy,Operations,Operations Executive,EMP007,L001,2024-05-22,Active
+EMP053,Aisha Iyer,Product,Product Manager,EMP008,L002,2025-06-25,Active
+EMP054,Aisha Nair,Marketing,Marketing Specialist,EMP009,L003,2026-07-01,Active
+EMP055,Aisha Mehta,Data Analytics,Analytics Engineer,EMP003,L004,2022-08-04,Active
+EMP056,Aisha Kapoor,Engineering,Engineering Lead,EMP002,L005,2023-09-07,Active
+EMP057,Aisha Joshi,Human Resources,HR Business Partner,EMP001,L006,2024-10-10,Active
+EMP058,Aisha Rao,Finance,Senior Finance Analyst,EMP004,L001,2025-11-13,Active
+EMP059,Aisha Verma,Information Technology,IT Manager,EMP005,L002,2026-12-16,Active
+EMP060,Aisha Menon,Sales,Sales Manager,EMP006,L003,2022-01-19,Active
+EMP061,Aisha Singh,Operations,Operations Manager,EMP007,L004,2023-02-22,Active
+EMP062,Aisha Gupta,Product,Product Owner,EMP008,L005,2024-03-25,Active
+EMP063,Aisha Desai,Marketing,Marketing Manager,EMP009,L006,2025-04-01,Active
+EMP064,Aisha Kulkarni,Data Analytics,Data Analyst,EMP003,L001,2026-05-04,Active
+EMP065,Aisha Pillai,Engineering,Software Engineer,EMP002,L002,2022-06-07,Active
+EMP066,Aisha Bhat,Human Resources,HR Executive,EMP001,L003,2023-07-10,Active
+EMP067,Aisha Malhotra,Finance,Finance Analyst,EMP004,L004,2024-08-13,Active
+EMP068,Aisha Mishra,Information Technology,IT Support Engineer,EMP005,L005,2025-09-16,Active
+EMP069,Aisha Chopra,Sales,Sales Executive,EMP006,L006,2026-10-19,Active
+EMP070,Akash Sharma,Operations,Operations Analyst,EMP007,L001,2022-11-22,Active
+EMP071,Akash Patel,Product,Product Analyst,EMP008,L002,2023-12-25,Active
+EMP072,Akash Reddy,Marketing,Marketing Analyst,EMP009,L003,2024-01-01,Active
+EMP073,Akash Iyer,Data Analytics,Senior Data Analyst,EMP003,L004,2025-02-04,Active
+EMP074,Akash Nair,Engineering,Senior Software Engineer,EMP002,L005,2026-03-07,Active
+EMP075,Akash Mehta,Human Resources,HR Business Partner,EMP001,L006,2022-04-10,Active
+EMP076,Akash Kapoor,Finance,Senior Finance Analyst,EMP004,L001,2023-05-13,Active
+EMP077,Akash Joshi,Information Technology,IT Administrator,EMP005,L002,2024-06-16,Active
+EMP078,Akash Rao,Sales,Account Manager,EMP006,L003,2025-07-19,Active
+EMP079,Akash Verma,Operations,Operations Executive,EMP007,L004,2026-08-22,Active
+EMP080,Akash Menon,Product,Product Manager,EMP008,L005,2022-09-25,Active
+EMP081,Akash Singh,Marketing,Marketing Specialist,EMP009,L006,2023-10-01,Active
+EMP082,Akash Gupta,Data Analytics,Analytics Engineer,EMP003,L001,2024-11-04,Active
+EMP083,Akash Desai,Engineering,Engineering Lead,EMP002,L002,2025-12-07,Active
+EMP084,Akash Kulkarni,Human Resources,HR Executive,EMP001,L003,2026-01-10,Active
+EMP085,Akash Pillai,Finance,Finance Analyst,EMP004,L004,2022-02-13,Active
+EMP086,Akash Bhat,Information Technology,IT Manager,EMP005,L005,2023-03-16,Active
+EMP087,Akash Malhotra,Sales,Sales Manager,EMP006,L006,2024-04-19,Active
+EMP088,Akash Mishra,Operations,Operations Manager,EMP007,L001,2025-05-22,Active
+EMP089,Akash Chopra,Product,Product Owner,EMP008,L002,2026-06-25,Active
+EMP090,Ananya Patel,Marketing,Marketing Manager,EMP009,L003,2022-07-01,Active
+EMP091,Ananya Reddy,Data Analytics,Data Analyst,EMP003,L004,2023-08-04,Active
+EMP092,Ananya Iyer,Engineering,Software Engineer,EMP002,L005,2024-09-07,Active
+EMP093,Ananya Nair,Human Resources,HR Business Partner,EMP001,L006,2025-10-10,Active
+EMP094,Ananya Mehta,Finance,Senior Finance Analyst,EMP004,L001,2026-11-13,Active
+EMP095,Ananya Kapoor,Information Technology,IT Support Engineer,EMP005,L002,2022-12-16,Active
+EMP096,Ananya Joshi,Sales,Sales Executive,EMP006,L003,2023-01-19,Active
+EMP097,Ananya Rao,Operations,Operations Analyst,EMP007,L004,2024-02-22,Active
+EMP098,Ananya Verma,Product,Product Analyst,EMP008,L005,2025-03-25,Active
+EMP099,Ananya Menon,Marketing,Marketing Analyst,EMP009,L006,2026-04-01,Active
+EMP100,Ananya Singh,Data Analytics,Senior Data Analyst,EMP003,L001,2022-05-04,Inactive

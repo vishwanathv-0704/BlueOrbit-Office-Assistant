@@ -1,0 +1,414 @@
+expense_id,employee_id,expense_date,category,description,amount,status
+EXP0001,EMP010,2026-07-21,Meals,Business trip meals,850,Approved
+EXP0002,EMP010,2026-07-28,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0003,EMP010,2026-08-04,Mileage,Approved personal vehicle mileage,480,Pending
+EXP0004,EMP010,2026-08-11,Conference,Approved business conference fee,9000,Approved
+EXP0005,EMP010,2026-08-18,Hotel,Domestic business hotel accommodation,5000,Rejected
+EXP0006,EMP011,2026-07-23,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0007,EMP011,2026-07-30,Mileage,Approved personal vehicle mileage,720,Pending
+EXP0008,EMP011,2026-08-06,Conference,Approved business conference fee,6500,Approved
+EXP0009,EMP011,2026-08-13,Hotel,Domestic business hotel accommodation,4500,Rejected
+EXP0010,EMP011,2026-08-20,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0011,EMP011,2026-08-27,Train,AC train ticket for business travel,2200,Approved
+EXP0012,EMP012,2026-07-25,Mileage,Approved personal vehicle mileage,960,Pending
+EXP0013,EMP012,2026-08-01,Conference,Approved business conference fee,2500,Approved
+EXP0014,EMP012,2026-08-08,Hotel,Domestic business hotel accommodation,4500,Rejected
+EXP0015,EMP013,2026-07-27,Conference,Approved business conference fee,2500,Approved
+EXP0016,EMP013,2026-08-03,Hotel,Domestic business hotel accommodation,5000,Rejected
+EXP0017,EMP013,2026-08-10,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0018,EMP013,2026-08-17,Train,AC train ticket for business travel,2200,Approved
+EXP0019,EMP014,2026-07-29,Hotel,Domestic business hotel accommodation,6200,Rejected
+EXP0020,EMP014,2026-08-05,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0021,EMP014,2026-08-12,Train,AC train ticket for business travel,1400,Approved
+EXP0022,EMP014,2026-08-19,Meals,Business trip meals,650,Rejected
+EXP0023,EMP014,2026-08-26,Local Transport,Taxi for client/business meeting,800,Pending
+EXP0024,EMP015,2026-07-31,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0025,EMP015,2026-08-07,Train,AC train ticket for business travel,3200,Approved
+EXP0026,EMP015,2026-08-14,Meals,Business trip meals,850,Rejected
+EXP0027,EMP015,2026-08-21,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0028,EMP015,2026-08-28,Mileage,Approved personal vehicle mileage,480,Approved
+EXP0029,EMP015,2026-07-06,Conference,Approved business conference fee,2500,Rejected
+EXP0030,EMP016,2026-08-02,Train,AC train ticket for business travel,2200,Approved
+EXP0031,EMP016,2026-08-09,Meals,Business trip meals,1000,Rejected
+EXP0032,EMP016,2026-08-16,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0033,EMP017,2026-08-04,Meals,Business trip meals,850,Rejected
+EXP0034,EMP017,2026-08-11,Local Transport,Taxi for client/business meeting,1100,Pending
+EXP0035,EMP017,2026-08-18,Mileage,Approved personal vehicle mileage,720,Approved
+EXP0036,EMP017,2026-08-25,Conference,Approved business conference fee,9000,Rejected
+EXP0037,EMP018,2026-08-06,Local Transport,Taxi for client/business meeting,1100,Pending
+EXP0038,EMP018,2026-08-13,Mileage,Approved personal vehicle mileage,720,Approved
+EXP0039,EMP018,2026-08-20,Conference,Approved business conference fee,2500,Rejected
+EXP0040,EMP018,2026-08-27,Hotel,Domestic business hotel accommodation,6200,Pending
+EXP0041,EMP018,2026-07-05,Flight,Domestic economy flight for business travel,6800,Approved
+EXP0042,EMP019,2026-08-08,Mileage,Approved personal vehicle mileage,720,Approved
+EXP0043,EMP019,2026-08-15,Conference,Approved business conference fee,6500,Rejected
+EXP0044,EMP019,2026-08-22,Hotel,Domestic business hotel accommodation,5000,Pending
+EXP0045,EMP019,2026-08-29,Flight,Domestic economy flight for business travel,7500,Approved
+EXP0046,EMP019,2026-07-07,Train,AC train ticket for business travel,1400,Rejected
+EXP0047,EMP019,2026-07-14,Meals,Business trip meals,1350,Pending
+EXP0048,EMP020,2026-08-10,Conference,Approved business conference fee,9000,Rejected
+EXP0049,EMP020,2026-08-17,Hotel,Domestic business hotel accommodation,4500,Pending
+EXP0050,EMP020,2026-08-24,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0051,EMP021,2026-08-12,Hotel,Domestic business hotel accommodation,5000,Pending
+EXP0052,EMP021,2026-08-19,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0053,EMP021,2026-08-26,Train,AC train ticket for business travel,1400,Rejected
+EXP0054,EMP021,2026-07-04,Meals,Business trip meals,1000,Pending
+EXP0055,EMP022,2026-08-14,Flight,Domestic economy flight for business travel,7500,Approved
+EXP0056,EMP022,2026-08-21,Train,AC train ticket for business travel,3200,Rejected
+EXP0057,EMP022,2026-08-28,Meals,Business trip meals,650,Pending
+EXP0058,EMP022,2026-07-06,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0059,EMP022,2026-07-13,Mileage,Approved personal vehicle mileage,480,Rejected
+EXP0060,EMP023,2026-08-16,Train,AC train ticket for business travel,2200,Rejected
+EXP0061,EMP023,2026-08-23,Meals,Business trip meals,1350,Pending
+EXP0062,EMP023,2026-07-01,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0063,EMP023,2026-07-08,Mileage,Approved personal vehicle mileage,480,Rejected
+EXP0064,EMP023,2026-07-15,Conference,Approved business conference fee,9000,Pending
+EXP0065,EMP023,2026-07-22,Hotel,Domestic business hotel accommodation,4200,Approved
+EXP0066,EMP024,2026-08-18,Meals,Business trip meals,1000,Pending
+EXP0067,EMP024,2026-08-25,Local Transport,Taxi for client/business meeting,550,Approved
+EXP0068,EMP024,2026-07-03,Mileage,Approved personal vehicle mileage,720,Rejected
+EXP0069,EMP025,2026-08-20,Local Transport,Taxi for client/business meeting,300,Approved
+EXP0070,EMP025,2026-08-27,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0071,EMP025,2026-07-05,Conference,Approved business conference fee,4000,Pending
+EXP0072,EMP025,2026-07-12,Hotel,Domestic business hotel accommodation,5000,Approved
+EXP0073,EMP026,2026-08-22,Mileage,Approved personal vehicle mileage,720,Rejected
+EXP0074,EMP026,2026-08-29,Conference,Approved business conference fee,4000,Pending
+EXP0075,EMP026,2026-07-07,Hotel,Domestic business hotel accommodation,6200,Approved
+EXP0076,EMP026,2026-07-14,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0077,EMP026,2026-07-21,Train,AC train ticket for business travel,2200,Pending
+EXP0078,EMP027,2026-08-24,Conference,Approved business conference fee,6500,Pending
+EXP0079,EMP027,2026-07-02,Hotel,Domestic business hotel accommodation,4800,Approved
+EXP0080,EMP027,2026-07-09,Flight,Domestic economy flight for business travel,5200,Rejected
+EXP0081,EMP027,2026-07-16,Train,AC train ticket for business travel,900,Pending
+EXP0082,EMP027,2026-07-23,Meals,Business trip meals,1350,Approved
+EXP0083,EMP027,2026-07-30,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0084,EMP028,2026-08-26,Hotel,Domestic business hotel accommodation,4500,Approved
+EXP0085,EMP028,2026-07-04,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0086,EMP028,2026-07-11,Train,AC train ticket for business travel,900,Pending
+EXP0087,EMP029,2026-08-28,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0088,EMP029,2026-07-06,Train,AC train ticket for business travel,3200,Pending
+EXP0089,EMP029,2026-07-13,Meals,Business trip meals,1350,Approved
+EXP0090,EMP029,2026-07-20,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0091,EMP030,2026-07-01,Train,AC train ticket for business travel,2200,Pending
+EXP0092,EMP030,2026-07-08,Meals,Business trip meals,650,Approved
+EXP0093,EMP030,2026-07-15,Local Transport,Taxi for client/business meeting,550,Rejected
+EXP0094,EMP030,2026-07-22,Mileage,Approved personal vehicle mileage,960,Pending
+EXP0095,EMP030,2026-07-29,Conference,Approved business conference fee,6500,Approved
+EXP0096,EMP031,2026-07-03,Meals,Business trip meals,1350,Approved
+EXP0097,EMP031,2026-07-10,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0098,EMP031,2026-07-17,Mileage,Approved personal vehicle mileage,480,Pending
+EXP0099,EMP031,2026-07-24,Conference,Approved business conference fee,4000,Approved
+EXP0100,EMP031,2026-07-31,Hotel,Domestic business hotel accommodation,4500,Rejected
+EXP0101,EMP031,2026-08-07,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0102,EMP032,2026-07-05,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0103,EMP032,2026-07-12,Mileage,Approved personal vehicle mileage,720,Pending
+EXP0104,EMP032,2026-07-19,Conference,Approved business conference fee,9000,Approved
+EXP0105,EMP033,2026-07-07,Mileage,Approved personal vehicle mileage,720,Pending
+EXP0106,EMP033,2026-07-14,Conference,Approved business conference fee,6500,Approved
+EXP0107,EMP033,2026-07-21,Hotel,Domestic business hotel accommodation,4800,Rejected
+EXP0108,EMP033,2026-07-28,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0109,EMP034,2026-07-09,Conference,Approved business conference fee,9000,Approved
+EXP0110,EMP034,2026-07-16,Hotel,Domestic business hotel accommodation,4200,Rejected
+EXP0111,EMP034,2026-07-23,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0112,EMP034,2026-07-30,Train,AC train ticket for business travel,900,Approved
+EXP0113,EMP034,2026-08-06,Meals,Business trip meals,850,Rejected
+EXP0114,EMP035,2026-07-11,Hotel,Domestic business hotel accommodation,4200,Rejected
+EXP0115,EMP035,2026-07-18,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0116,EMP035,2026-07-25,Train,AC train ticket for business travel,2200,Approved
+EXP0117,EMP035,2026-08-01,Meals,Business trip meals,1350,Rejected
+EXP0118,EMP035,2026-08-08,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0119,EMP035,2026-08-15,Mileage,Approved personal vehicle mileage,720,Approved
+EXP0120,EMP036,2026-07-13,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0121,EMP036,2026-07-20,Train,AC train ticket for business travel,3200,Approved
+EXP0122,EMP036,2026-07-27,Meals,Business trip meals,1200,Rejected
+EXP0123,EMP037,2026-07-15,Train,AC train ticket for business travel,3200,Approved
+EXP0124,EMP037,2026-07-22,Meals,Business trip meals,1000,Rejected
+EXP0125,EMP037,2026-07-29,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0126,EMP037,2026-08-05,Mileage,Approved personal vehicle mileage,480,Approved
+EXP0127,EMP038,2026-07-17,Meals,Business trip meals,1350,Rejected
+EXP0128,EMP038,2026-07-24,Local Transport,Taxi for client/business meeting,1100,Pending
+EXP0129,EMP038,2026-07-31,Mileage,Approved personal vehicle mileage,480,Approved
+EXP0130,EMP038,2026-08-07,Conference,Approved business conference fee,6500,Rejected
+EXP0131,EMP038,2026-08-14,Hotel,Domestic business hotel accommodation,4200,Pending
+EXP0132,EMP039,2026-07-19,Local Transport,Taxi for client/business meeting,800,Pending
+EXP0133,EMP039,2026-07-26,Mileage,Approved personal vehicle mileage,1200,Approved
+EXP0134,EMP039,2026-08-02,Conference,Approved business conference fee,2500,Rejected
+EXP0135,EMP039,2026-08-09,Hotel,Domestic business hotel accommodation,4800,Pending
+EXP0136,EMP039,2026-08-16,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0137,EMP039,2026-08-23,Train,AC train ticket for business travel,2200,Rejected
+EXP0138,EMP040,2026-07-21,Mileage,Approved personal vehicle mileage,1200,Approved
+EXP0139,EMP040,2026-07-28,Conference,Approved business conference fee,2500,Rejected
+EXP0140,EMP040,2026-08-04,Hotel,Domestic business hotel accommodation,4800,Pending
+EXP0141,EMP041,2026-07-23,Conference,Approved business conference fee,9000,Rejected
+EXP0142,EMP041,2026-07-30,Hotel,Domestic business hotel accommodation,4500,Pending
+EXP0143,EMP041,2026-08-06,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0144,EMP041,2026-08-13,Train,AC train ticket for business travel,1400,Rejected
+EXP0145,EMP042,2026-07-25,Hotel,Domestic business hotel accommodation,5000,Pending
+EXP0146,EMP042,2026-08-01,Flight,Domestic economy flight for business travel,6800,Approved
+EXP0147,EMP042,2026-08-08,Train,AC train ticket for business travel,1400,Rejected
+EXP0148,EMP042,2026-08-15,Meals,Business trip meals,1350,Pending
+EXP0149,EMP042,2026-08-22,Local Transport,Taxi for client/business meeting,800,Approved
+EXP0150,EMP043,2026-07-27,Flight,Domestic economy flight for business travel,5200,Approved
+EXP0151,EMP043,2026-08-03,Train,AC train ticket for business travel,3200,Rejected
+EXP0152,EMP043,2026-08-10,Meals,Business trip meals,1350,Pending
+EXP0153,EMP043,2026-08-17,Local Transport,Taxi for client/business meeting,550,Approved
+EXP0154,EMP043,2026-08-24,Mileage,Approved personal vehicle mileage,480,Rejected
+EXP0155,EMP043,2026-07-02,Conference,Approved business conference fee,6500,Pending
+EXP0156,EMP044,2026-07-29,Train,AC train ticket for business travel,2200,Rejected
+EXP0157,EMP044,2026-08-05,Meals,Business trip meals,650,Pending
+EXP0158,EMP044,2026-08-12,Local Transport,Taxi for client/business meeting,800,Approved
+EXP0159,EMP045,2026-07-31,Meals,Business trip meals,1350,Pending
+EXP0160,EMP045,2026-08-07,Local Transport,Taxi for client/business meeting,300,Approved
+EXP0161,EMP045,2026-08-14,Mileage,Approved personal vehicle mileage,960,Rejected
+EXP0162,EMP045,2026-08-21,Conference,Approved business conference fee,2500,Pending
+EXP0163,EMP046,2026-08-02,Local Transport,Taxi for client/business meeting,800,Approved
+EXP0164,EMP046,2026-08-09,Mileage,Approved personal vehicle mileage,720,Rejected
+EXP0165,EMP046,2026-08-16,Conference,Approved business conference fee,2500,Pending
+EXP0166,EMP046,2026-08-23,Hotel,Domestic business hotel accommodation,6200,Approved
+EXP0167,EMP046,2026-07-01,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0168,EMP047,2026-08-04,Mileage,Approved personal vehicle mileage,960,Rejected
+EXP0169,EMP047,2026-08-11,Conference,Approved business conference fee,2500,Pending
+EXP0170,EMP047,2026-08-18,Hotel,Domestic business hotel accommodation,6200,Approved
+EXP0171,EMP047,2026-08-25,Flight,Domestic economy flight for business travel,6800,Rejected
+EXP0172,EMP047,2026-07-03,Train,AC train ticket for business travel,3200,Pending
+EXP0173,EMP047,2026-07-10,Meals,Business trip meals,1000,Approved
+EXP0174,EMP048,2026-08-06,Conference,Approved business conference fee,4000,Pending
+EXP0175,EMP048,2026-08-13,Hotel,Domestic business hotel accommodation,5000,Approved
+EXP0176,EMP048,2026-08-20,Flight,Domestic economy flight for business travel,7500,Rejected
+EXP0177,EMP049,2026-08-08,Hotel,Domestic business hotel accommodation,6200,Approved
+EXP0178,EMP049,2026-08-15,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0179,EMP049,2026-08-22,Train,AC train ticket for business travel,2200,Pending
+EXP0180,EMP049,2026-08-29,Meals,Business trip meals,650,Approved
+EXP0181,EMP050,2026-08-10,Flight,Domestic economy flight for business travel,5200,Rejected
+EXP0182,EMP050,2026-08-17,Train,AC train ticket for business travel,3200,Pending
+EXP0183,EMP050,2026-08-24,Meals,Business trip meals,850,Approved
+EXP0184,EMP050,2026-07-02,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0185,EMP050,2026-07-09,Mileage,Approved personal vehicle mileage,720,Pending
+EXP0186,EMP051,2026-08-12,Train,AC train ticket for business travel,900,Pending
+EXP0187,EMP051,2026-08-19,Meals,Business trip meals,850,Approved
+EXP0188,EMP051,2026-08-26,Local Transport,Taxi for client/business meeting,800,Rejected
+EXP0189,EMP051,2026-07-04,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0190,EMP051,2026-07-11,Conference,Approved business conference fee,6500,Approved
+EXP0191,EMP051,2026-07-18,Hotel,Domestic business hotel accommodation,6200,Rejected
+EXP0192,EMP052,2026-08-14,Meals,Business trip meals,1350,Approved
+EXP0193,EMP052,2026-08-21,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0194,EMP052,2026-08-28,Mileage,Approved personal vehicle mileage,960,Pending
+EXP0195,EMP053,2026-08-16,Local Transport,Taxi for client/business meeting,550,Rejected
+EXP0196,EMP053,2026-08-23,Mileage,Approved personal vehicle mileage,720,Pending
+EXP0197,EMP053,2026-07-01,Conference,Approved business conference fee,2500,Approved
+EXP0198,EMP053,2026-07-08,Hotel,Domestic business hotel accommodation,4800,Rejected
+EXP0199,EMP054,2026-08-18,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0200,EMP054,2026-08-25,Conference,Approved business conference fee,4000,Approved
+EXP0201,EMP054,2026-07-03,Hotel,Domestic business hotel accommodation,4200,Rejected
+EXP0202,EMP054,2026-07-10,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0203,EMP054,2026-07-17,Train,AC train ticket for business travel,3200,Approved
+EXP0204,EMP055,2026-08-20,Conference,Approved business conference fee,9000,Approved
+EXP0205,EMP055,2026-08-27,Hotel,Domestic business hotel accommodation,4500,Rejected
+EXP0206,EMP055,2026-07-05,Flight,Domestic economy flight for business travel,5200,Pending
+EXP0207,EMP055,2026-07-12,Train,AC train ticket for business travel,2200,Approved
+EXP0208,EMP055,2026-07-19,Meals,Business trip meals,850,Rejected
+EXP0209,EMP055,2026-07-26,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0210,EMP056,2026-08-22,Hotel,Domestic business hotel accommodation,4500,Rejected
+EXP0211,EMP056,2026-08-29,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0212,EMP056,2026-07-07,Train,AC train ticket for business travel,2200,Approved
+EXP0213,EMP057,2026-08-24,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0214,EMP057,2026-07-02,Train,AC train ticket for business travel,3200,Approved
+EXP0215,EMP057,2026-07-09,Meals,Business trip meals,1350,Rejected
+EXP0216,EMP057,2026-07-16,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0217,EMP058,2026-08-26,Train,AC train ticket for business travel,3200,Approved
+EXP0218,EMP058,2026-07-04,Meals,Business trip meals,650,Rejected
+EXP0219,EMP058,2026-07-11,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0220,EMP058,2026-07-18,Mileage,Approved personal vehicle mileage,960,Approved
+EXP0221,EMP058,2026-07-25,Conference,Approved business conference fee,4000,Rejected
+EXP0222,EMP059,2026-08-28,Meals,Business trip meals,650,Rejected
+EXP0223,EMP059,2026-07-06,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0224,EMP059,2026-07-13,Mileage,Approved personal vehicle mileage,1200,Approved
+EXP0225,EMP059,2026-07-20,Conference,Approved business conference fee,4000,Rejected
+EXP0226,EMP059,2026-07-27,Hotel,Domestic business hotel accommodation,4500,Pending
+EXP0227,EMP059,2026-08-03,Flight,Domestic economy flight for business travel,7500,Approved
+EXP0228,EMP060,2026-07-01,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0229,EMP060,2026-07-08,Mileage,Approved personal vehicle mileage,1200,Approved
+EXP0230,EMP060,2026-07-15,Conference,Approved business conference fee,9000,Rejected
+EXP0231,EMP061,2026-07-03,Mileage,Approved personal vehicle mileage,960,Approved
+EXP0232,EMP061,2026-07-10,Conference,Approved business conference fee,2500,Rejected
+EXP0233,EMP061,2026-07-17,Hotel,Domestic business hotel accommodation,4200,Pending
+EXP0234,EMP061,2026-07-24,Flight,Domestic economy flight for business travel,5200,Approved
+EXP0235,EMP062,2026-07-05,Conference,Approved business conference fee,6500,Rejected
+EXP0236,EMP062,2026-07-12,Hotel,Domestic business hotel accommodation,4200,Pending
+EXP0237,EMP062,2026-07-19,Flight,Domestic economy flight for business travel,5200,Approved
+EXP0238,EMP062,2026-07-26,Train,AC train ticket for business travel,900,Rejected
+EXP0239,EMP062,2026-08-02,Meals,Business trip meals,1000,Pending
+EXP0240,EMP063,2026-07-07,Hotel,Domestic business hotel accommodation,4200,Pending
+EXP0241,EMP063,2026-07-14,Flight,Domestic economy flight for business travel,6800,Approved
+EXP0242,EMP063,2026-07-21,Train,AC train ticket for business travel,900,Rejected
+EXP0243,EMP063,2026-07-28,Meals,Business trip meals,650,Pending
+EXP0244,EMP063,2026-08-04,Local Transport,Taxi for client/business meeting,300,Approved
+EXP0245,EMP063,2026-08-11,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0246,EMP064,2026-07-09,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0247,EMP064,2026-07-16,Train,AC train ticket for business travel,1400,Rejected
+EXP0248,EMP064,2026-07-23,Meals,Business trip meals,1000,Pending
+EXP0249,EMP065,2026-07-11,Train,AC train ticket for business travel,2200,Rejected
+EXP0250,EMP065,2026-07-18,Meals,Business trip meals,1200,Pending
+EXP0251,EMP065,2026-07-25,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0252,EMP065,2026-08-01,Mileage,Approved personal vehicle mileage,720,Rejected
+EXP0253,EMP066,2026-07-13,Meals,Business trip meals,1350,Pending
+EXP0254,EMP066,2026-07-20,Local Transport,Taxi for client/business meeting,550,Approved
+EXP0255,EMP066,2026-07-27,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0256,EMP066,2026-08-03,Conference,Approved business conference fee,6500,Pending
+EXP0257,EMP066,2026-08-10,Hotel,Domestic business hotel accommodation,5400,Approved
+EXP0258,EMP067,2026-07-15,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0259,EMP067,2026-07-22,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0260,EMP067,2026-07-29,Conference,Approved business conference fee,9000,Pending
+EXP0261,EMP067,2026-08-05,Hotel,Domestic business hotel accommodation,5000,Approved
+EXP0262,EMP067,2026-08-12,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0263,EMP067,2026-08-19,Train,AC train ticket for business travel,1400,Pending
+EXP0264,EMP068,2026-07-17,Mileage,Approved personal vehicle mileage,480,Rejected
+EXP0265,EMP068,2026-07-24,Conference,Approved business conference fee,9000,Pending
+EXP0266,EMP068,2026-07-31,Hotel,Domestic business hotel accommodation,4500,Approved
+EXP0267,EMP069,2026-07-19,Conference,Approved business conference fee,2500,Pending
+EXP0268,EMP069,2026-07-26,Hotel,Domestic business hotel accommodation,4500,Approved
+EXP0269,EMP069,2026-08-02,Flight,Domestic economy flight for business travel,6800,Rejected
+EXP0270,EMP069,2026-08-09,Train,AC train ticket for business travel,2200,Pending
+EXP0271,EMP070,2026-07-21,Hotel,Domestic business hotel accommodation,6200,Approved
+EXP0272,EMP070,2026-07-28,Flight,Domestic economy flight for business travel,5200,Rejected
+EXP0273,EMP070,2026-08-04,Train,AC train ticket for business travel,1400,Pending
+EXP0274,EMP070,2026-08-11,Meals,Business trip meals,650,Approved
+EXP0275,EMP070,2026-08-18,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0276,EMP071,2026-07-23,Flight,Domestic economy flight for business travel,5200,Rejected
+EXP0277,EMP071,2026-07-30,Train,AC train ticket for business travel,3200,Pending
+EXP0278,EMP071,2026-08-06,Meals,Business trip meals,1000,Approved
+EXP0279,EMP071,2026-08-13,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0280,EMP071,2026-08-20,Mileage,Approved personal vehicle mileage,480,Pending
+EXP0281,EMP071,2026-08-27,Conference,Approved business conference fee,2500,Approved
+EXP0282,EMP072,2026-07-25,Train,AC train ticket for business travel,3200,Pending
+EXP0283,EMP072,2026-08-01,Meals,Business trip meals,650,Approved
+EXP0284,EMP072,2026-08-08,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0285,EMP073,2026-07-27,Meals,Business trip meals,1000,Approved
+EXP0286,EMP073,2026-08-03,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0287,EMP073,2026-08-10,Mileage,Approved personal vehicle mileage,960,Pending
+EXP0288,EMP073,2026-08-17,Conference,Approved business conference fee,2500,Approved
+EXP0289,EMP074,2026-07-29,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0290,EMP074,2026-08-05,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0291,EMP074,2026-08-12,Conference,Approved business conference fee,9000,Approved
+EXP0292,EMP074,2026-08-19,Hotel,Domestic business hotel accommodation,6200,Rejected
+EXP0293,EMP074,2026-08-26,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0294,EMP075,2026-07-31,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0295,EMP075,2026-08-07,Conference,Approved business conference fee,4000,Approved
+EXP0296,EMP075,2026-08-14,Hotel,Domestic business hotel accommodation,5400,Rejected
+EXP0297,EMP075,2026-08-21,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0298,EMP075,2026-08-28,Train,AC train ticket for business travel,3200,Approved
+EXP0299,EMP075,2026-07-06,Meals,Business trip meals,1200,Rejected
+EXP0300,EMP076,2026-08-02,Conference,Approved business conference fee,6500,Approved
+EXP0301,EMP076,2026-08-09,Hotel,Domestic business hotel accommodation,5000,Rejected
+EXP0302,EMP076,2026-08-16,Flight,Domestic economy flight for business travel,7500,Pending
+EXP0303,EMP077,2026-08-04,Hotel,Domestic business hotel accommodation,5400,Rejected
+EXP0304,EMP077,2026-08-11,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0305,EMP077,2026-08-18,Train,AC train ticket for business travel,3200,Approved
+EXP0306,EMP077,2026-08-25,Meals,Business trip meals,1000,Rejected
+EXP0307,EMP078,2026-08-06,Flight,Domestic economy flight for business travel,5200,Pending
+EXP0308,EMP078,2026-08-13,Train,AC train ticket for business travel,2200,Approved
+EXP0309,EMP078,2026-08-20,Meals,Business trip meals,1350,Rejected
+EXP0310,EMP078,2026-08-27,Local Transport,Taxi for client/business meeting,1100,Pending
+EXP0311,EMP078,2026-07-05,Mileage,Approved personal vehicle mileage,1200,Approved
+EXP0312,EMP079,2026-08-08,Train,AC train ticket for business travel,1400,Approved
+EXP0313,EMP079,2026-08-15,Meals,Business trip meals,1200,Rejected
+EXP0314,EMP079,2026-08-22,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0315,EMP079,2026-08-29,Mileage,Approved personal vehicle mileage,960,Approved
+EXP0316,EMP079,2026-07-07,Conference,Approved business conference fee,6500,Rejected
+EXP0317,EMP079,2026-07-14,Hotel,Domestic business hotel accommodation,4500,Pending
+EXP0318,EMP080,2026-08-10,Meals,Business trip meals,850,Rejected
+EXP0319,EMP080,2026-08-17,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0320,EMP080,2026-08-24,Mileage,Approved personal vehicle mileage,480,Approved
+EXP0321,EMP081,2026-08-12,Local Transport,Taxi for client/business meeting,550,Pending
+EXP0322,EMP081,2026-08-19,Mileage,Approved personal vehicle mileage,720,Approved
+EXP0323,EMP081,2026-08-26,Conference,Approved business conference fee,2500,Rejected
+EXP0324,EMP081,2026-07-04,Hotel,Domestic business hotel accommodation,4800,Pending
+EXP0325,EMP082,2026-08-14,Mileage,Approved personal vehicle mileage,960,Approved
+EXP0326,EMP082,2026-08-21,Conference,Approved business conference fee,2500,Rejected
+EXP0327,EMP082,2026-08-28,Hotel,Domestic business hotel accommodation,4800,Pending
+EXP0328,EMP082,2026-07-06,Flight,Domestic economy flight for business travel,5200,Approved
+EXP0329,EMP082,2026-07-13,Train,AC train ticket for business travel,2200,Rejected
+EXP0330,EMP083,2026-08-16,Conference,Approved business conference fee,4000,Rejected
+EXP0331,EMP083,2026-08-23,Hotel,Domestic business hotel accommodation,5400,Pending
+EXP0332,EMP083,2026-07-01,Flight,Domestic economy flight for business travel,5200,Approved
+EXP0333,EMP083,2026-07-08,Train,AC train ticket for business travel,1400,Rejected
+EXP0334,EMP083,2026-07-15,Meals,Business trip meals,850,Pending
+EXP0335,EMP083,2026-07-22,Local Transport,Taxi for client/business meeting,300,Approved
+EXP0336,EMP084,2026-08-18,Hotel,Domestic business hotel accommodation,5400,Pending
+EXP0337,EMP084,2026-08-25,Flight,Domestic economy flight for business travel,3800,Approved
+EXP0338,EMP084,2026-07-03,Train,AC train ticket for business travel,1400,Rejected
+EXP0339,EMP085,2026-08-20,Flight,Domestic economy flight for business travel,7500,Approved
+EXP0340,EMP085,2026-08-27,Train,AC train ticket for business travel,3200,Rejected
+EXP0341,EMP085,2026-07-05,Meals,Business trip meals,1200,Pending
+EXP0342,EMP085,2026-07-12,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0343,EMP086,2026-08-22,Train,AC train ticket for business travel,3200,Rejected
+EXP0344,EMP086,2026-08-29,Meals,Business trip meals,1000,Pending
+EXP0345,EMP086,2026-07-07,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0346,EMP086,2026-07-14,Mileage,Approved personal vehicle mileage,720,Rejected
+EXP0347,EMP086,2026-07-21,Conference,Approved business conference fee,4000,Pending
+EXP0348,EMP087,2026-08-24,Meals,Business trip meals,1000,Pending
+EXP0349,EMP087,2026-07-02,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0350,EMP087,2026-07-09,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0351,EMP087,2026-07-16,Conference,Approved business conference fee,4000,Pending
+EXP0352,EMP087,2026-07-23,Hotel,Domestic business hotel accommodation,5000,Approved
+EXP0353,EMP087,2026-07-30,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0354,EMP088,2026-08-26,Local Transport,Taxi for client/business meeting,1100,Approved
+EXP0355,EMP088,2026-07-04,Mileage,Approved personal vehicle mileage,960,Rejected
+EXP0356,EMP088,2026-07-11,Conference,Approved business conference fee,6500,Pending
+EXP0357,EMP089,2026-08-28,Mileage,Approved personal vehicle mileage,1200,Rejected
+EXP0358,EMP089,2026-07-06,Conference,Approved business conference fee,6500,Pending
+EXP0359,EMP089,2026-07-13,Hotel,Domestic business hotel accommodation,4200,Approved
+EXP0360,EMP089,2026-07-20,Flight,Domestic economy flight for business travel,5200,Rejected
+EXP0361,EMP090,2026-07-01,Conference,Approved business conference fee,2500,Pending
+EXP0362,EMP090,2026-07-08,Hotel,Domestic business hotel accommodation,5400,Approved
+EXP0363,EMP090,2026-07-15,Flight,Domestic economy flight for business travel,3800,Rejected
+EXP0364,EMP090,2026-07-22,Train,AC train ticket for business travel,900,Pending
+EXP0365,EMP090,2026-07-29,Meals,Business trip meals,1000,Approved
+EXP0366,EMP091,2026-07-03,Hotel,Domestic business hotel accommodation,5400,Approved
+EXP0367,EMP091,2026-07-10,Flight,Domestic economy flight for business travel,6800,Rejected
+EXP0368,EMP091,2026-07-17,Train,AC train ticket for business travel,3200,Pending
+EXP0369,EMP091,2026-07-24,Meals,Business trip meals,1350,Approved
+EXP0370,EMP091,2026-07-31,Local Transport,Taxi for client/business meeting,300,Rejected
+EXP0371,EMP091,2026-08-07,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0372,EMP092,2026-07-05,Flight,Domestic economy flight for business travel,6800,Rejected
+EXP0373,EMP092,2026-07-12,Train,AC train ticket for business travel,2200,Pending
+EXP0374,EMP092,2026-07-19,Meals,Business trip meals,650,Approved
+EXP0375,EMP093,2026-07-07,Train,AC train ticket for business travel,2200,Pending
+EXP0376,EMP093,2026-07-14,Meals,Business trip meals,1200,Approved
+EXP0377,EMP093,2026-07-21,Local Transport,Taxi for client/business meeting,800,Rejected
+EXP0378,EMP093,2026-07-28,Mileage,Approved personal vehicle mileage,480,Pending
+EXP0379,EMP094,2026-07-09,Meals,Business trip meals,1000,Approved
+EXP0380,EMP094,2026-07-16,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0381,EMP094,2026-07-23,Mileage,Approved personal vehicle mileage,960,Pending
+EXP0382,EMP094,2026-07-30,Conference,Approved business conference fee,2500,Approved
+EXP0383,EMP094,2026-08-06,Hotel,Domestic business hotel accommodation,6200,Rejected
+EXP0384,EMP095,2026-07-11,Local Transport,Taxi for client/business meeting,1100,Rejected
+EXP0385,EMP095,2026-07-18,Mileage,Approved personal vehicle mileage,480,Pending
+EXP0386,EMP095,2026-07-25,Conference,Approved business conference fee,9000,Approved
+EXP0387,EMP095,2026-08-01,Hotel,Domestic business hotel accommodation,4800,Rejected
+EXP0388,EMP095,2026-08-08,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0389,EMP095,2026-08-15,Train,AC train ticket for business travel,1400,Approved
+EXP0390,EMP096,2026-07-13,Mileage,Approved personal vehicle mileage,1200,Pending
+EXP0391,EMP096,2026-07-20,Conference,Approved business conference fee,9000,Approved
+EXP0392,EMP096,2026-07-27,Hotel,Domestic business hotel accommodation,5400,Rejected
+EXP0393,EMP097,2026-07-15,Conference,Approved business conference fee,9000,Approved
+EXP0394,EMP097,2026-07-22,Hotel,Domestic business hotel accommodation,6200,Rejected
+EXP0395,EMP097,2026-07-29,Flight,Domestic economy flight for business travel,3800,Pending
+EXP0396,EMP097,2026-08-05,Train,AC train ticket for business travel,1400,Approved
+EXP0397,EMP098,2026-07-17,Hotel,Domestic business hotel accommodation,5400,Rejected
+EXP0398,EMP098,2026-07-24,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0399,EMP098,2026-07-31,Train,AC train ticket for business travel,900,Approved
+EXP0400,EMP098,2026-08-07,Meals,Business trip meals,650,Rejected
+EXP0401,EMP098,2026-08-14,Local Transport,Taxi for client/business meeting,800,Pending
+EXP0402,EMP099,2026-07-19,Flight,Domestic economy flight for business travel,6800,Pending
+EXP0403,EMP099,2026-07-26,Train,AC train ticket for business travel,900,Approved
+EXP0404,EMP099,2026-08-02,Meals,Business trip meals,650,Rejected
+EXP0405,EMP099,2026-08-09,Local Transport,Taxi for client/business meeting,300,Pending
+EXP0406,EMP099,2026-08-16,Mileage,Approved personal vehicle mileage,960,Approved
+EXP0407,EMP099,2026-08-23,Conference,Approved business conference fee,2500,Rejected
+EXP0408,EMP100,2026-07-21,Train,AC train ticket for business travel,2200,Approved
+EXP0409,EMP100,2026-07-28,Meals,Business trip meals,1000,Rejected
+EXP0410,EMP100,2026-08-04,Local Transport,Taxi for client/business meeting,550,Pending
+EXP9991,EMP010,2026-08-18,Hotel,Domestic business hotel accommodation,4500,Pending
+EXP9992,EMP010,2026-08-19,Meals,Business trip meals,1100,Approved
+EXP9993,EMP011,2026-08-20,Hotel,Domestic business hotel accommodation,6200,Pending
