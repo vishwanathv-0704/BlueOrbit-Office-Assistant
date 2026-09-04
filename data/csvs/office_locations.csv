@@ -1,0 +1,7 @@
+location_id,city,office_name,address,facilities,working_hours
+L001,Bangalore,BlueOrbit Bangalore,"Manyata Tech Park, Nagavara, Bengaluru",Cafeteria; Parking; Gym; Meeting Rooms; Medical Room,9:00 AM - 6:00 PM
+L002,Hyderabad,BlueOrbit Hyderabad,"HITEC City, Madhapur, Hyderabad",Cafeteria; Parking; Meeting Rooms; Recreation Room,9:00 AM - 6:00 PM
+L003,Chennai,BlueOrbit Chennai,"OMR, Sholinganallur, Chennai",Cafeteria; Parking; Meeting Rooms; Training Room,9:00 AM - 6:00 PM
+L004,Pune,BlueOrbit Pune,"Hinjewadi IT Park, Pune",Cafeteria; Parking; Gym; Meeting Rooms,9:00 AM - 6:00 PM
+L005,Mumbai,BlueOrbit Mumbai,"Andheri East, Mumbai",Cafeteria; Meeting Rooms; Parking; Training Room,9:00 AM - 6:00 PM
+L006,Delhi,BlueOrbit Delhi,"Cyber City, Gurugram",Cafeteria; Parking; Gym; Meeting Rooms,9:00 AM - 6:00 PM
