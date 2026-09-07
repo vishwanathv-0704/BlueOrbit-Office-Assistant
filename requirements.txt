@@ -1,0 +1,11 @@
+streamlit
+langgraph
+langchain
+langchain-ollama
+ollama
+pandas
+numpy
+pypdf
+faiss-cpu
+google-genai
+python-dotenv
