@@ -155,7 +155,6 @@ BlueOrbit-Office-Assistant/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .env.example
 └── .gitignore
 ```
 
