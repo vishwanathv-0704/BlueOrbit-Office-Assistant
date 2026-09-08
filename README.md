@@ -94,7 +94,7 @@ Policy-related leave questions are answered through the RAG pipeline.
 
 The assistant can retrieve and summarize employee expense information.
 
-Supported queries include:
+Supported queries include are listed below:
 
 ```text
 Show my expense records.
