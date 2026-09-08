@@ -287,8 +287,8 @@ Can I carry forward my unused leave?
 ```text
 Show my expense records.
 What is my total expense?
-How much is approved?
-How much is pending?
+what is my approved expense ?
+what is my pending expense ?
 Give me an expense summary.
 ```
 
