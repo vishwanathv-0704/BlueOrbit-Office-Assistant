@@ -117,7 +117,7 @@ RAG-based answers for policies such as:
 | Ollama            | Local LLM runtime               |
 | Pandas            | Structured CSV data processing  |
 | FAISS             | Vector similarity search        |
-| Gemini Embeddings | Text embeddings                 |
+| BGE Model         | Text embeddings                 |
 | PyPDF             | PDF text extraction             |
 | NumPy             | Numerical operations            |
 | python-dotenv     | Environment variable management |
