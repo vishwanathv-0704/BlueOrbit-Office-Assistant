@@ -243,7 +243,248 @@ def get_leave_balance(employee_id: str) -> Dict[str, Any]:
         rows.iloc[0].to_dict(),
         "Leave balance found."
     )
+# ============================================================
+# APPLY / GRANT LEAVE
+# ============================================================
 
+def apply_leave(
+    employee_id: str,
+    leave_type: str,
+    days: int,
+) -> Dict[str, Any]:
+    """
+    Deduct requested leave days from the employee's leave balance.
+
+    leave_type:
+        casual_leave
+        earned_leave
+        sick_leave
+
+    Returns the updated balance.
+    """
+
+    normalized_id = _normalize_id(employee_id)
+
+    # --------------------------------------------------------
+    # Validate number of days
+    # --------------------------------------------------------
+
+    try:
+        days = int(days)
+    except (TypeError, ValueError):
+        return _result(
+            False,
+            None,
+            "Number of leave days must be a valid integer.",
+        )
+
+    if days <= 0:
+        return _result(
+            False,
+            None,
+            "Leave days must be greater than zero.",
+        )
+
+    # --------------------------------------------------------
+    # Normalize leave type
+    # --------------------------------------------------------
+
+    aliases = {
+        "casual": "casual_leave",
+        "casual leave": "casual_leave",
+        "cl": "casual_leave",
+        "casual_leave": "casual_leave",
+
+        "earned": "earned_leave",
+        "earned leave": "earned_leave",
+        "el": "earned_leave",
+        "earned_leave": "earned_leave",
+
+        "sick": "sick_leave",
+        "sick leave": "sick_leave",
+        "sl": "sick_leave",
+        "sick_leave": "sick_leave",
+    }
+
+    normalized_leave_type = aliases.get(
+        str(leave_type).strip().lower()
+    )
+
+    if normalized_leave_type is None:
+        return _result(
+            False,
+            None,
+            "Invalid leave type. Use Casual, Earned, or Sick Leave.",
+        )
+
+    # --------------------------------------------------------
+    # Find employee leave record
+    # --------------------------------------------------------
+
+    matching_rows = leave_df.index[
+        leave_df["employee_id"] == normalized_id
+    ].tolist()
+
+    if not matching_rows:
+        return _result(
+            False,
+            None,
+            f"Leave record for {normalized_id} not found.",
+        )
+
+    row_index = matching_rows[0]
+
+    # --------------------------------------------------------
+    # Find correct column
+    # --------------------------------------------------------
+
+    column_aliases = {
+        "casual_leave": [
+            "casual_leave",
+            "casual",
+            "cl",
+            "CL",
+        ],
+        "earned_leave": [
+            "earned_leave",
+            "earned",
+            "el",
+            "EL",
+        ],
+        "sick_leave": [
+            "sick_leave",
+            "sick",
+            "sl",
+            "SL",
+        ],
+    }
+
+    balance_column = None
+
+    for column in column_aliases[normalized_leave_type]:
+        if column in leave_df.columns:
+            balance_column = column
+            break
+
+    if balance_column is None:
+        return _result(
+            False,
+            None,
+            f"Could not find the {normalized_leave_type} column.",
+        )
+
+    # --------------------------------------------------------
+    # Current balance
+    # --------------------------------------------------------
+
+    try:
+        current_balance = float(
+            leave_df.at[row_index, balance_column]
+        )
+    except (TypeError, ValueError):
+        return _result(
+            False,
+            None,
+            "Current leave balance is invalid.",
+        )
+
+    # --------------------------------------------------------
+    # Check sufficient balance
+    # --------------------------------------------------------
+
+    if current_balance < days:
+        return _result(
+            False,
+            {
+                "employee_id": normalized_id,
+                "leave_type": normalized_leave_type,
+                "requested_days": days,
+                "available_days": current_balance,
+            },
+            f"Insufficient {normalized_leave_type.replace('_', ' ').title()} balance.",
+        )
+
+    # --------------------------------------------------------
+    # Deduct leave
+    # --------------------------------------------------------
+
+    new_balance = current_balance - days
+
+    leave_df.at[
+        row_index,
+        balance_column
+    ] = new_balance
+
+    # --------------------------------------------------------
+    # Update total leave if the column exists
+    # --------------------------------------------------------
+
+    total_columns = [
+        "total_leave",
+        "total_leaves",
+        "total",
+    ]
+
+    total_column = None
+
+    for column in total_columns:
+        if column in leave_df.columns:
+            total_column = column
+            break
+
+    if total_column:
+        try:
+            current_total = float(
+                leave_df.at[row_index, total_column]
+            )
+
+            leave_df.at[
+                row_index,
+                total_column
+            ] = current_total - days
+
+        except (TypeError, ValueError):
+            pass
+
+    # --------------------------------------------------------
+    # IMPORTANT:
+    # Persist the change to CSV
+    # --------------------------------------------------------
+
+    leave_file = DATA_DIR / "leave_balance.csv"
+
+    try:
+        leave_df.to_csv(
+            leave_file,
+            index=False,
+        )
+    except Exception as exc:
+        return _result(
+            False,
+            None,
+            f"Leave balance was changed in memory but could not be saved: {exc}",
+        )
+
+    # --------------------------------------------------------
+    # Return updated record
+    # --------------------------------------------------------
+
+    updated_record = leave_df.loc[
+        row_index
+    ].to_dict()
+
+    return _result(
+        True,
+        {
+            "employee_id": normalized_id,
+            "leave_type": normalized_leave_type,
+            "requested_days": days,
+            "previous_balance": current_balance,
+            "remaining_balance": new_balance,
+            "updated_record": updated_record,
+        },
+        "Leave granted successfully.",
+    )
 
 # ============================================================
 # EXPENSE RECORDS
